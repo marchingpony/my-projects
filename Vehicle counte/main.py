@@ -70,7 +70,7 @@ while ret:
     cv2.putText(frame1, "Total Cars Detected: " + str(cars), (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 1,
                 (0, 170, 0), 2)
 
-    cv2.putText(frame1, "MechatronicsLAB.net", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1,
+    cv2.putText(frame1, "Mehta", (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1,
                 (255, 170, 0), 2)
 
     # cv2.drawContours(frame1,contours,-1,(0,0,255),2)
